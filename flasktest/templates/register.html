@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+</head>
+<body>
+
+<form method='POST' action="/func8">
+    {{ form.csrf_token }}
+    {{ form.uname.label }} {{ form.uname(size=20) }}
+    <input type="submit" value="Go">
+
+</form>
+</body>
+</html>
+
+
+
+
+
